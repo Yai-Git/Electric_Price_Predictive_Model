@@ -1,5 +1,6 @@
 # Data
-data/
+data/*
+!data/.gitkeep
 prices_all_data/
 
 # Notebook checkpoints
@@ -13,8 +14,16 @@ __pycache__/
 
 # Project specific folders to exclude
 .claude/
-archive/
-results/
+archive/*
+!archive/.gitkeep
+results/*
+!results/.gitkeep
+!results/figures/
+!results/models/
+results/figures/*
+!results/figures/.gitkeep
+results/models/*
+!results/models/.gitkeep
 
 # Environments
 .env
