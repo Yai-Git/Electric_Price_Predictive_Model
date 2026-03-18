@@ -24,6 +24,7 @@ results/figures/*
 !results/figures/.gitkeep
 results/models/*
 !results/models/.gitkeep
+models_profiles.json
 
 # Environments
 .env
